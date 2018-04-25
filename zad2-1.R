@@ -1,9 +1,9 @@
 kwartal_1 <- c("Styczeń", "Luty", "Marzec")
 kwartal_2 <- c("Kwiecień", "Maj", "Czerwiec")
-kwartal_3 <-  c("Lipiec", "Sierpień", "Wrzesień")
-kwartal_4 <-  c("Październik", "Listopad", "Grudzień")
+kwartal_3 <- c("Lipiec", "Sierpień", "Wrzesień")
+kwartal_4 <- c("Październik", "Listopad", "Grudzień")
 
-rok <-c(kwartal_1, kwartal_2, kwartal_3, kwartal_4)
+rok <- c(kwartal_1, kwartal_2, kwartal_3, kwartal_4)
 
 rok[1:2]
 
