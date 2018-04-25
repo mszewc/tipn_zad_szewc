@@ -12,6 +12,12 @@ czy_dlugo_jeszcze <- function(aktualny_dzien, aktualny_miesiac, aktualny_rok, la
 
 
 czy_dlugo_jeszcze(02,04,2018,0)
+#AZ:
+#Jako rozwiązanie Twojej, a raczej naszej wspólnej zagwozdki, wystarczy zrobić tak (a może da się jakoś łatwiej?)
+godziny <- czy_dlugo_jeszcze (02,04,2018,0)
+paste("To wszystko zakonczy się za...", godziny, "godzin")
+ 
+
 
 
 
