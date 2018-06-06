@@ -16,7 +16,7 @@ filter(movies, year == 2005, Comedy == 1 )
       
 
 # zad5-4
-# Uzna³am, ¿e rating > 7 oznacza dobry film.
+# UznaÂ³am, Â¿e rating > 7 oznacza dobry film.
 
       movies %>%
      filter(Animation == 1, year >= 1990 & year < 2000, votes >= (mean(votes)) , rating > 7) %>%
