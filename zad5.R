@@ -1,8 +1,9 @@
 
 
 library(tidyverse)
-
-movies
+library(readr)
+movies <- read_csv("movies.csv")
+View(movies)
 
 # zad5-2
 
